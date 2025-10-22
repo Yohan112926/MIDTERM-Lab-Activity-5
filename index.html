@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<table width="90%" align="center">
+    <tr>
+    <td colspan="2" style="text-align: center; background-color: gray;">
+        <h1 style="text-align: center;">Weekly Diet & Exercise Tracker</h1>
+        <p>Monitor your meals and workouts for a healthier lifestyle.</p>
+    </td>
+    </tr>
+
+<tr>
+<td rowspan="2">
+    <form>
+    <div class="Personal Information">
+        <fieldset >
+            <legend>Personal Information</legend>
+            <table style="padding: auto;">
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Age:</td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td><select id="gender" name="gender">
+                    <option value="text" aria-readonly="false">--Select--</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Other</option>
+                    </select></td>
+                </tr>
+            </table>
+        </fieldset>
+    </div>
+    
+    <div class="Diet Tracking (Mon-Fri)">
+        <fieldset>
+            <legend>Diet Tracking (Mon-Fri)</legend>
+            <table border="1px">
+                <tr>
+                    <td>Day</td>
+                    <td style="text-align: center;">Calories</td>
+                </tr>
+                <tr>
+                    <td>Mon</td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td>Tue</td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td>Wed</td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td>Thu</td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td>Fri</td>
+                    <td><input type="number"></td>
+                </tr>
+        </table>
+    </fieldset>
+        
+
+    <div class="Exercise (Mon-Fri)">
+        <fieldset>
+            <legend>Exercise (Mon-Fri)</legend>
+            <table border="1px">
+                <tr>
+                    <td>Day</td>
+                    <td style="text-align: center;">Minute</td>
+                </tr>
+                <tr>
+                    <td>Mon</td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td>Tue:</td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td>Wed</td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td>Thu</td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td>Fri</td>
+                    <td><input type="number"></td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <div>
+            <input type="Submit" value="Submit">
+            <input type="Reset" value="Reset">
+        </div>
+        
+    </form>
+        
+            <td style="width: 50%; text-align: center;" style="float: right;" valign="top">
+            <h3>Watch this video for tips on healthy eating and exercise!</h3>
+            <iframe src="https://www.youtube.com/embed/v=Sc4rj3OiVV8I" width="400" height="300"></iframe>
+            </td>
+    </tr>
+    </td>
+    </table>
+</body>
+</html>
